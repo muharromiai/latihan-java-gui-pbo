@@ -5,10 +5,10 @@
 ## Komponen utama GUI yang digunakan
 
 ### 1. Top-level Container Class
-Class utama yang membuat frame tempat menampung seluruh fungsi dan method
+Class utama yang membuat frame tempat menampung seluruh fungsi dan method. `(public class LatihanGUI extends JFrame)`.
 
 ### 2. Intermediate Container Class
-Frame yang diletakkan di dalam top-level container untuk mengelompokkan dan mengatur komponen lain.
+Frame yang diletakkan di dalam top-level container untuk mengelompokkan dan mengatur komponen lain. `(panelForm, JTextArea)`.
 
 ### 3. Atomic Component Class
 - JLabel: Menampilkan keterangan field input (Nama Tugas, Prioritas, Opsi Tambahan) serta status bar di bagian bawah (lblStatus).
